@@ -2,8 +2,8 @@ use std::convert::TryFrom;
 
 use super::c32::c32_address_decode;
 
-pub const C32_ADDRESS_VERSION_MAINNET_SINGLESIG: u8 = 22; // P
-pub const C32_ADDRESS_VERSION_MAINNET_MULTISIG: u8 = 20; // M
+pub const C32_ADDRESS_VERSION_MAINNET_SINGLESIG: u8 = 25; // P
+pub const C32_ADDRESS_VERSION_MAINNET_MULTISIG: u8 = 22; // M
 pub const C32_ADDRESS_VERSION_TESTNET_SINGLESIG: u8 = 26; // T
 pub const C32_ADDRESS_VERSION_TESTNET_MULTISIG: u8 = 21; // N
 
